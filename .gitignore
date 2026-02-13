@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.env
+.venv/
+venv/
+ENV/
+
+# Logs
+*.log
+logs/*.log
+
+# Data directories
+rag_storage/*
+!rag_storage/.gitkeep
+inputs/*
+!inputs/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+temp/
+tmp/
+
